@@ -1,28 +1,28 @@
 let canv = document.querySelector ("#myCanvas")
 let ctx = canv.getContext("2d")
-ctx.fillStyle = "pink";
-ctx.strokeStyle = "pink";
+ctx.fillStyle = "#FFD4D4";
+ctx.strokeStyle = "#FEC7C7";
 ctx.beginPath()
 ctx.arc(100,100,50,1*Math.PI,0*Math.PI)
 ctx.stroke()
 ctx.fill()
 
-ctx.fillStyle = "green";
-ctx.strokeStyle = "green";
+ctx.fillStyle = "#CCCCCC";
+ctx.strokeStyle = "#B5B5B5";
 ctx.beginPath()
 ctx.rect (50,100,100,50)
 ctx.stroke()
 ctx.fill()
 
-ctx.fillStyle = "#f2e468";
-ctx.strokeStyle = "#f2e468";
+ctx.fillStyle = "#FFD054";
+ctx.strokeStyle = "#FFCD48";
 ctx.beginPath()
 ctx.rect (50,150,100,300)
 ctx.stroke()
 ctx.fill()
 
-ctx.fillStyle = "#f5ddc1";
-ctx.strokeStyle = "#f5ddc1";
+ctx.fillStyle = "#FFDAAB";
+ctx.strokeStyle = "#FFD7A5";
 ctx.beginPath()
 ctx.moveTo (50,450)
 ctx.lineTo(100,550)
