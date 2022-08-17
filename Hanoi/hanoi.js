@@ -1,6 +1,7 @@
 let mover = Number(prompt("Ingrese el número de discos que desea mover"))
 let origen = Number(prompt("Ingrese la columna de origen (1, 2, o 3)"))
 let destino = Number(prompt("Ingrese la columna de destino (1, 2, o 3)"))
+let discos
 let plataformaintermedia = 0
 
 function hanoi (discos, origen, destino){
